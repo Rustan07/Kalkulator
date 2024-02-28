@@ -1,0 +1,156 @@
+body {
+    background : rgb(157, 173, 168);
+    font-family  : sans-serif;
+}
+
+/* Aplikasi Kalkulator */
+
+.exit {
+    background : white;
+    width : 30px;
+    border-radius : 40px;
+    margin : 0px 20px 0px 340px;
+}
+
+.kalkulator {
+    width : 360px;
+    border-radius : 23px;
+    background : rgb(24, 23, 23);
+    margin : 100px auto;
+    padding : 20px 30px;
+
+}
+
+.title {
+    font-size : 20px;
+    color : white;
+    text-align : center;
+}
+
+.horizontal {
+    margin : 20px;
+}
+
+.bil { 
+    width : 320px;
+    border : none;
+    border-radius : 20px;
+    padding : 10px 0px 10px 30px;
+    margin : 7px;
+    font-size : 16px;
+}
+
+.bil1 { 
+    width : 320px;
+    border : none;
+    border-radius : 20px;
+    padding : 10px 0px 10px 30px;
+    margin : 7px;
+    background : rgb(188, 180, 180);
+    color : rgb(10, 10, 10);
+    font-size : 20px;
+}
+
+.operator { 
+    width : 350px;
+    border : none;
+    border-radius : 20px;
+    padding : 10px 0px 10px 25px;
+    margin : 7px;
+    font-size : 16px;
+}
+
+.tombol { 
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom : 5px solid rgb(182, 43, 43);
+    border-radius : 15px;
+    padding : 10px 20px;
+    margin : 10px 49px 10px 45px;
+    font-size : 15px;
+    background : rgb(255, 68, 68);
+}
+
+.tombol:hover { 
+    transition : 5 all;
+    display : active;
+    transform: translateY(-5px);
+    background : rgb(234, 107, 107);
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom : 5px solid rgb(255, 68, 68);
+}
+
+.copyright { 
+    color : rgb(101, 154, 194);
+    text-align : center;
+}
+
+/* Menu  Utama */
+
+.menu {
+    width : 360px;
+    border-radius : 23px;
+    background : rgb(146, 202, 184);
+    margin : 200px auto;
+    padding : 20px 40px 60px 40px;
+}
+
+.selamat {
+    font-size : 30px;
+    text-align : center;
+    color : black;
+}
+
+.kalku {
+    border : none;
+    border-radius : 15px;
+    padding : 20px 50px;
+    margin : 10px 20px auto;
+    font-size : 15px;
+    background : rgb(99, 94, 94);
+    color : white;
+    text-decoration : none;
+}
+
+.about { 
+    border : none;
+    border-radius : 15px;
+    padding : 20px 50px;
+    margin : 10px auto;
+    font-size : 15px;
+    background : rgb(99, 94, 94);
+    color : white;
+    text-decoration : none;
+}
+
+.marquee {
+    font-size  : 30px;
+    color : rgb(0, 0, 0);
+}
+ 
+/* About */
+
+.aboutt {
+    border : none;
+    border-radius : 15px;
+    padding : 20px 50px;
+    margin : 10px auto;
+    width : 400px;
+    font-size : 15px;
+    background : linear-gradient(to right, rgb(145, 205, 205), rgb(203, 142, 203));
+    color : white;
+    text-decoration : none;
+}
+
+.titlee {
+    font-size : 30px;
+    text-align : center;
+    color : black;
+}
+
+.pesan {
+    color : black;
+}
